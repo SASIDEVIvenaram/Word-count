@@ -19,6 +19,7 @@ Finding the given length of the words by using len() fuction.
 Calling the function and Printing the number of words. 
 
 ## PROGRAM:
+```
 
 num_word=0
 with open ("sample.txt",'r') as f:
@@ -26,6 +27,7 @@ for i in f:
 word=i.split()
 num_word+=len(word)
 print("number of words ={}".format(num_word)
+```
 
 
 
