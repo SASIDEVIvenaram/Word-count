@@ -26,19 +26,18 @@ Calling the function and Printing the number of words.
 ```
 ```
 num_word=0
-with open ("sample.txt",'r') as f:
-for i in f:
-word=i.split()
-num_word+=len(word)
-print("number of words ={}".format(num_word)
+with open ("/content/lines.txt",'r') as f:
+    for i in f:
+        word=i.split()
+        num_word+=len(word)
+print("number of words ={}".format(num_word))
 ```
 
 
-
 ### OUTPUT:
-![](/output.png)
-![](/file.png)
+![](output.png)
 
+![](file.png)
 
 ## RESULT:
 Thus the program is written to find the word count from a text.
